@@ -5,7 +5,7 @@ To set up the weather app locally , follow these instructions:
 
 1. Clone the repository: 
     ```
-    git clone https://github.com/your-username/weather-app.git
+    git clone https://github.com/dexter-ifti/weather-app.git
     ```
 
 2. Navigate to the project directory:
