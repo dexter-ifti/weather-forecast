@@ -16,6 +16,7 @@ To set up the weather app locally , follow these instructions:
 3. Install the required dependencies:
     ```
     npm install
+    npm install axios
     ```
 
 4. Obtain an API key from a weather data provider ([Website](https://www.weatherapi.com/)).
