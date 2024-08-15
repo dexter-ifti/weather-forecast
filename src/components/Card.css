@@ -1,0 +1,63 @@
+.card {
+    background-color: #48bb78; /* green-600 */
+    color: #d6bcfa; /* purple-50 */
+    border-radius: 0.5rem;
+    padding: 1rem;
+    width: 100%;
+    max-width: 16rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card-header {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .card-date {
+    background-color: #fefcbf; /* yellow-300 */
+    border-radius: 1.5rem;
+    padding: 0.25rem 0.75rem;
+  }
+  
+  .card-location {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .card-icon {
+    text-align: center;
+  }
+  
+  .weather-icon {
+    color: #ecc94b; /* yellow-300 */
+  }
+  
+  .card-body {
+    font-size: 0.875rem;
+    padding-top: 1rem;
+  }
+  
+  .card-details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .card-detail-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.5rem;
+  }
+  
+  .detail-icon {
+    margin-right: 0.5rem;
+  }
+  
+  .card-temps {
+    text-align: center;
+  }
+  
+  .card-temp {
+    font-size: 1.25rem;
+  }
+  
