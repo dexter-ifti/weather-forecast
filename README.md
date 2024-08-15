@@ -27,7 +27,7 @@ To set up the weather app locally , follow these instructions:
 
 6. Start the development server:
     ```
-    npm start
+    npm run dev
     ```
 
 7. Open a web browser and visit `http://localhost:5173` to access the weather app.
