@@ -1,4 +1,7 @@
-To set up the weather app locally for other users, follow these instructions:
+
+## [Live Link](https://weather-blond-sigma.vercel.app/) 
+
+To set up the weather app locally , follow these instructions:
 
 1. Clone the repository: 
     ```
