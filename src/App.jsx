@@ -32,7 +32,7 @@ function App() {
   },[city])
 
   useEffect(() => {
-    axios.get(`http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=5&aqi=no&alerts=no`)
+    axios.get(`https://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${city}&days=5&aqi=no&alerts=no`)
     .then((responce) => {
       setFirst(responce.data.forecast.forecastday[0]);
       setSecond(responce.data.forecast.forecastday[1]);
