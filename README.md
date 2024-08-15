@@ -1,8 +1,30 @@
-# React + Vite
+To set up the weather app locally for other users, follow these instructions:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+1. Clone the repository: 
+    ```
+    git clone https://github.com/your-username/weather-app.git
+    ```
 
-Currently, two official plugins are available:
+2. Navigate to the project directory:
+    ```
+    cd weather-app
+    ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+3. Install the required dependencies:
+    ```
+    npm install
+    ```
+
+4. Obtain an API key from a weather data provider ([Website](https://www.weatherapi.com/)).
+
+5. Create a `.env` file in the root directory of the project and add the API key:
+    ```
+    VITE_API_KEY=your-api-key
+    ```
+
+6. Start the development server:
+    ```
+    npm start
+    ```
+
+7. Open a web browser and visit `http://localhost:5173` to access the weather app.
